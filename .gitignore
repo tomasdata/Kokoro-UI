@@ -169,3 +169,24 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Project-specific
+output/
+input/
+*.wav
+*.mp3
+
+# Temporary audio files
+/tmp/kokoro_temp/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
